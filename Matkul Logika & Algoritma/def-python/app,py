@@ -1,0 +1,13 @@
+def calculate(A, B):
+    if A > B:
+        C = A * B
+        print("C =", C)
+    else:
+        C = A + B
+        D = C * C
+        print("C =", C, ", D =", D)
+
+# Memanggil fungsi dengan nilai A dan B
+A = 4
+B = 6
+calculate(A, B)
